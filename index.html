@@ -1,0 +1,19 @@
+<script src="https://randojs.com/2.0.0.js"></script>
+<canvas width="1000" height="1000" id="canvas"></canvas>
+<script src="./index.js"></script>
+<style>
+@keyframes rotater {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
+.canvas{
+  animation: rotater 10s linear infinite;
+}
+html {
+  background-color: #000;
+}
+</style>
